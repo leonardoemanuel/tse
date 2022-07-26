@@ -68,7 +68,7 @@ section#urna div#teclas{
     width: 50%;
     border: 1px solid black;
     font-weight: bolder;
-    font-size: 3vw;
+    font-size: 3vh;
 }
 #teclas table{
     width: 100%;
@@ -79,7 +79,7 @@ section#urna div#teclas{
     width: 33%;
     border: 1px solid black;
     font-weight: bolder;
-    font-size: 1.5rem;
+    font-size: 3vh;
     text-align: center;
 }
 #teclas td:hover{
