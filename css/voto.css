@@ -51,8 +51,8 @@ section#urna div#visor{
     padding: 0.2rem;
 }
 div#visor img{
-    width: 30%;
-    height: 8rem;
+    width: 20vw;
+    height: 18vw;
 }
 section#urna div#teclas{
     height: 35vw;
@@ -79,7 +79,7 @@ section#urna div#teclas{
     width: 33%;
     border: 1px solid black;
     font-weight: bolder;
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: center;
 }
 #teclas td:hover{

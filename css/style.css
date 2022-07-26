@@ -59,9 +59,9 @@ section#candidatos h2{
 }
 section#candidatos div{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     max-width: 70rem;
-    height: 20rem;
     margin: auto;
     border-bottom: 1px solid rgba(0, 0, 0, 0.258);
     padding-bottom: 1rem;
@@ -73,7 +73,7 @@ section#candidatos p{
     font-size: 1.2rem;
 }
 section#candidatos div img{
-    height: 100%;
-    width: 30%;
+    height: 20rem;
+    width: 20rem;
 }
 /*-------------FOOTER-------------------*/
