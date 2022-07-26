@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/voto.css">
+    <title>TSE-VOTE</title>
+</head>
+<body>
+    <header>
+        <a href="../index.html"><img src="../imagens/tse-logo.png" alt="Logo do TSE"></a>
+        <div>
+            <a href="canditados.html">CANDIDATOS</a>
+            <a href="voto.html">VOTE</a>
+        </div>
+    </header>
+    <main>
+        <section id="urna">
+            <div id="visor">
+                <table>
+                    <tr id="trVisor">
+                        
+                    </tr>
+                </table>
+                <img src="../imagens/tse-logo.png" id="fotoCandidato">
+            </div>
+            <div id="teclas">
+                <table>
+                    <tr>
+                        <td onclick="valor9()">9</td>
+                        <td onclick="valor8()">8</td>
+                        <td onclick="valor7()">7</td>
+                    </tr>
+                    <tr>
+                        <td onclick="valor6()">6</td>
+                        <td onclick="valor5()">5</td>
+                        <td onclick="valor4()">4</td>
+                    </tr>
+                    <tr>
+                        <td onclick="valor3()">3</td>
+                        <td onclick="valor2()">2</td>
+                        <td onclick="valor1()">1</td>
+                    </tr>
+                    <tr>
+                        <td id="confirma" onclick="confirma()">CONFIRMA</td>
+                        <td id="branco" onclick="branco()">BRANCO</td>
+                        <td id="corrigir" onclick="corrigir()">CORRIGIR</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <article>
+            <p>22-BOLSONARO,13-LULA,32-CIRO GOMES</p>
+        </article>
+    </main>
+    <script src="../script.js"></script>
+</body>
+</html>
